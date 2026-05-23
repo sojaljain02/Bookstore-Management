@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bookstore API Docs</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-light">
+
+<div class="container mt-5">
+
+    <div class="card shadow p-4">
+
+        <h1 class="mb-4">📚 Bookstore Management REST API</h1>
+
+        <p>
+            Backend REST API system developed using Flask and SQLite.
+        </p>
+
+        <h3>Available Endpoints</h3>
+
+        <table class="table table-bordered mt-3">
+
+            <tr>
+                <th>Method</th>
+                <th>Endpoint</th>
+                <th>Description</th>
+            </tr>
+
+            <tr>
+                <td>POST</td>
+                <td>/api/register</td>
+                <td>Register new user</td>
+            </tr>
+
+            <tr>
+                <td>POST</td>
+                <td>/api/login</td>
+                <td>User login</td>
+            </tr>
+
+            <tr>
+                <td>GET</td>
+                <td>/api/books</td>
+                <td>Get all books</td>
+            </tr>
+
+            <tr>
+                <td>POST</td>
+                <td>/api/books</td>
+                <td>Add new book</td>
+            </tr>
+
+            <tr>
+                <td>PUT</td>
+                <td>/api/books/id</td>
+                <td>Update book</td>
+            </tr>
+
+            <tr>
+                <td>DELETE</td>
+                <td>/api/books/id</td>
+                <td>Delete book</td>
+            </tr>
+
+            <tr>
+                <td>POST</td>
+                <td>/api/orders</td>
+                <td>Create order</td>
+            </tr>
+
+            <tr>
+                <td>GET</td>
+                <td>/api/orders</td>
+                <td>Get all orders</td>
+            </tr>
+
+        </table>
+
+    </div>
+
+</div>
+
+</body>
+</html>
